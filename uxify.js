@@ -20,7 +20,7 @@ _initClickAndDissapear = function(klass) {
         $('body').css({
           'padding-top': 0
         });
-        $('body').html('<span style="' + laugh_style + '">HAHAHAHAHAHA!</span>');
+        $('body').html('<span style="' + laugh_style + '">HAHAHAHA - This is UX BITCH!</span>');
         $('body').append('<img style="' + img_style + '" src="./assets/joker.jpg">');
         $('body span').effect("highlight", {}, 3000);
       }
